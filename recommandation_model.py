@@ -16,7 +16,7 @@ app = Flask(__name__)
 sentiment_analyzer = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
 
 # Base URL of your Spring backend
-SPRING_API_BASE_URL = "http://localhost:9080"
+SPRING_API_BASE_URL = "https://backend-backup-4.onrender.com"
 
 # Weights for recommendation factors
 WEIGHTS = {
