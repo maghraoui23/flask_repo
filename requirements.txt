@@ -1,9 +1,9 @@
 requests==2.31.0
-numpy==1.26.4
-scikit-learn==1.4.0  # Version plus récente avec meilleure compatibilité
+numpy==2.0.2  # Compatible with Python 3.13
+scikit-learn==1.5.2  # Latest version, compatible with Python 3.13
 geopy==2.4.1
-transformers==4.38.2
+transformers==4.52.4  # Updated for better compatibility with torch 2.7.1
 flask==3.0.3
 gunicorn==22.0.0
-cython==3.0.7  # Ajouter Cython explicitement
-torch==2.3.0  # Add PyTorch
+cython==3.0.11  # Latest version, compatible with Python 3.13
+torch==2.7.1  # Compatible with Python 3.13
