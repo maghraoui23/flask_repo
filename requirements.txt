@@ -6,3 +6,4 @@ transformers==4.38.2
 flask==3.0.3
 gunicorn==22.0.0
 cython==3.0.7  # Ajouter Cython explicitement
+torch==2.3.0  # Add PyTorch
